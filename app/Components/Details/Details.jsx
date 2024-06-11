@@ -15,7 +15,7 @@ export default function Details(props ) {
     <>
         
         {
-            props.index === 0 ? <> <details  className="group text-lg relative open:border-skyy open:border rounded-2xl py-2  w-full lg:px-3 my-1" open >
+            props.index === 0 ? <> <details  className="group text-lg relative open:border-skyy open:border rounded-2xl py-2  w-full lg:px-3 my-1  " open >
             <summary 
             className="flex cursor-pointer bg-grayy rounded-2xl py-3 px-4 group-open:bg-white flex-row items-center justify-between  font-normal text-black marker:[font-size:0px]"
             >

@@ -78,3 +78,11 @@ opacity: 1;
   background-size: 30px auto;
 	background-position: 0.4em center;
 }
+
+details::marker {
+  display:none !important;
+
+}
+details summary::-webkit-details-marker {
+  display:none !important;
+}
