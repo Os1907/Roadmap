@@ -24,7 +24,7 @@ export default function StyleInfo() {
 
       <div className='mt-4 w-full'>
        <label htmlFor="duration" className='text-zinc-500 text-xs font-light '>Roadmap duration*</label>
-        <select name="duration" id="duration" className='text-black bg-white focus-within:outline-none w-full p-4 rounded-xl '>
+        <select name="duration" id="duration" className='text-black bg-white size-14 focus-within:outline-none w-full p-4 rounded-xl '>
             <option value="1:2 Weeks">1:2 Weeks</option>
             <option value="3:4 Weeks" >3:4 Weeks</option>
             <option value="5:6 Weeks"  selected>5:6 Weeks</option>
@@ -33,10 +33,8 @@ export default function StyleInfo() {
 
             <div className='mt-4 w-full'>
        <label htmlFor="duration" className='text-zinc-500 text-xs font-light '>Roadmap icon</label>
-        <select name="duration" id="duration" className='text-black bg-white focus-within:outline-none w-full p-4 rounded-xl bg-[url("/Icon/Frame.png")] bg-no-repeat bg-center bg-position pl-10 '>
+        <select name="duration" id="duration" className='text-black bg-white size-14 focus-within:outline-none w-full p-4 rounded-xl bg-[url("/Icon/Frame.png")] bg-no-repeat bg-center bg-position pl-10 '>
             <option value="1:2 Weeks" selected> Example Icon</option>
-            <option value="3:4 Weeks" >3:4 Weeks</option>
-            <option value="5:6 Weeks"  >5:6 Weeks</option>
         </select>
             </div>
             
