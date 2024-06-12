@@ -15,11 +15,11 @@ export default function UperBar() {
     </p>
       </div>
 
+
+
+
+
       {/*Drop Down  */}
-     
-
-
-
 
       <div className='flex gap-x-3  mr-10 lg:mr-0 '>
         <button className='bg-skyy group hover:bg-blue-700 px-2 lg:px-5 py-0 lg:py-2 rounded-3xl flex items-center gap-x-2'>
@@ -28,7 +28,7 @@ export default function UperBar() {
         Publish
           </p>
         </button>
-        <button className='hidden lg:block '>
+        <button className='block '>
           <div className='p-2 rounded-full border border-black hover:bg-zinc-100 '>
 
           <Image src={dots} alt="roadmap" className='size-4 '/>

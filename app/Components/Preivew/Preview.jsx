@@ -131,7 +131,7 @@ export default function Preview(props) {
                   {item.complete ? (
                     <>
                       <div className="w-full h-[1px] bg-gray-300 mt-3"></div>
-                      <div className="bg-skyy rounded-lg py-2 cursor-pointer  w-full flex justify-center mt-2">
+                      <div className="bg-skyy  hover:bg-blue-700 rounded-lg py-2 cursor-pointer  w-full flex justify-center mt-2">
                         <p className="text-white ">Complete assignment</p>
                       </div>{" "}
                     </>
@@ -248,7 +248,7 @@ export default function Preview(props) {
                   {item.complete ? (
                     <>
                       <div className="w-full h-[1px] bg-gray-300 mt-3"></div>
-                      <div className="bg-skyy rounded-lg py-2 cursor-pointer  w-full flex justify-center mt-2">
+                      <div className="bg-skyy rounded-lg  hover:bg-blue-700 py-2 cursor-pointer  w-full flex justify-center mt-2">
                         <p className="text-white ">Complete assignment</p>
                       </div>{" "}
                     </>

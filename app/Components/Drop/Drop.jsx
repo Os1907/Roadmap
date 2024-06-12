@@ -9,6 +9,7 @@ import dol from '../../../public/Icon/dol.png'
 import color from '../../../public/Icon/color.png'
 import whiteColor from '../../../public/Icon/whiteColor.png'
 import setting from '../../../public/Icon/se.png'
+import qu from '../../../public/Icon/ques.png'
 import { usePathname } from 'next/navigation'
 export default function Drop() {
     const [isOpen, setOpen] = useState(false)
@@ -22,7 +23,7 @@ export default function Drop() {
     <div className=''>
     
     
-        <div onClick={()=>setdisplay(false)} className=' mr-3  flex justify-end lg:hidden z-[1223213]  fixed  right-0 top-1'>
+        <div onClick={()=>setdisplay(false)} className=' mr-3  flex justify-end lg:hidden z-[1223213]  fixed  right-0 top-2'>
     
         <Hamburger toggled={isOpen} toggle={setOpen}  size={20} color='#506CF0'  />
         </div>
@@ -59,7 +60,10 @@ export default function Drop() {
                       <Image src={setting} alt="roadmap"   className="size-5 "/>
                       
                     </Link>
-              
+
+            <Link href="">
+              <Image src={qu} alt="roadmap" className="size-5" />
+            </Link>
                       
                  
             </div> : <></>

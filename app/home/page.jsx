@@ -120,6 +120,7 @@ const stages=[
   place :"/addpost"
  }
  ]
+
   return (
     <>
     
