@@ -32,7 +32,6 @@ export default function Texts() {
                 <input
                   type="text"
                   placeholder="Example Headline"
-                  // value={"Example Headline"}
                   className="focus:outline-none  bg-transparent w-full text-black placeholder:text-black placeholder:text-base text-base py-1 font-medium ml-1"
                 />
                 <div className="text-black text-sm w-full h-32 overflow-scroll">
